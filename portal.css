@@ -1,0 +1,49 @@
+.sidebar-links{
+    box-shadow: 0 0 15px grey;
+    cursor: pointer;
+    /* background: rgb(254, 138, 157); */ 
+  }
+
+  .chart-container{
+    width: 200px;
+  }
+  .chart{
+    width: 800px;
+    height: 200px;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+    color: #f85700;
+    transition: all 400ms ease;
+  }
+  .chart:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+  }
+
+  .bg-portal {
+    background: url(Assets/13900590_5385130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center !important;
+    min-height: 100vh;
+  }
+
+  .img-news{
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+  }
+
+  #transactionVideo{
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0 0 100000px rgb(0, 0, 0,);
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
